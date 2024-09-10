@@ -10,7 +10,7 @@ singleuser:
           [
             "/bin/sh",
             "-c",
-            "gitpuller https://github.com/robo-cap/llm-jupyter-notebooks.git main examples"
+            "gitpuller ${playbooks_repo} main examples"
           ]
   cloudMetadata:
     blockWithIptables: false
