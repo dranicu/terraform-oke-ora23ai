@@ -412,7 +412,7 @@ variables:
     type: string
     title: Helm | JupyterHub - Playbooks Git Repo
     description: "Git Repository with Jupyter plabooks examples."
-    default: "https://github.com/dranicu/oracle23ai_rag_cohere.git"
+    default: "https://github.com/dranicu/oracle23ai-nim"
     visible: ${deploy_jupyterhub}
 
   adb_db_name:
